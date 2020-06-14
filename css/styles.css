@@ -1,0 +1,92 @@
+canvas {
+  position: fixed !important;
+}
+
+.container {
+  font-family: "Montserrat";
+  padding-top: 8%;
+  text-align: center;
+  margin: auto;
+  width: 70%;
+}
+
+.title {
+  font-size: 4rem;
+}
+
+.chevron {
+	border-style: solid;
+	border-width: 0.15rem 0.15rem 0 0;
+	content: '';
+	display: inline-block;
+	height: 1rem;
+  width: 1rem;
+	position: relative;
+	transform: rotate(135deg);
+  top: 0;
+  transition: .5s;
+}
+
+.chevron-toggle {
+  top: -10px;
+}
+
+.chevron-wrapper {
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+#title {
+  padding-bottom: 20%
+}
+
+#title a {
+  color: #000;
+}
+
+.example {
+  width: 100%;
+}
+
+.content-wrapper {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+  color: #fff;
+  text-align: left;
+}
+
+
+@media (min-width: 992px) {
+  .content-wrapper img {
+    height: 30vh;
+    overflow: hidden;
+  }
+}
+
+.content-wrapper a {
+  color: #fff;
+}
+
+.content-wrapper-inner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  top: 100%;
+  padding: 15px 20px; /* top/bottom 15px right/left 20px */
+  transition: .3s;
+  background: rgba(32,32,32, 0.7);
+}
+
+.content-wrapper:hover .content-wrapper-inner {
+  top: 0;
+}
+
+.content-title {
+  font-size: 1.5rem;
+}
+
+.desc {
+  padding-bottom: 20px;
+}
