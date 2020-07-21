@@ -20,11 +20,12 @@ canvas {
 	content: '';
 	display: inline-block;
 	height: 1rem;
-  width: 1rem;
+  	width: 1rem;
 	position: relative;
 	transform: rotate(135deg);
-  top: 0;
-  transition: .5s;
+  	top: 0;
+  	transition: .5s;
+	cursor: pointer;
 }
 
 .chevron-toggle {
